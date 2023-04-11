@@ -8,7 +8,7 @@ server.use(express.urlencoded({extended:true}))
 server.use(routes)
 
 server.listen(3000,()=>{
-    console.log("Servidpr em execução...")
+    console.log("Servidor em execução...")
 })
 
 
